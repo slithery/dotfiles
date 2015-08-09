@@ -1,8 +1,7 @@
 - clean: ['~']
 
-- link:
-    ~/.bash_profile: .bash_profile
-    ~/.bashrc: .bashrc
+- shell: [mkdir -p ~/.config]
 
-- shell: []
+- link:
+    ~/.config/bash: bash/
 
