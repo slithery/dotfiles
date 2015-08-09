@@ -98,3 +98,9 @@ stty -ctlecho
 
 # Set vimrc's location and source it on vim startup
 export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
+
+
+# Source pkgfile 'command not found' hook
+if [ -f /usr/share/doc/pkgfile/command-not-found.bash ]; then
+    . /usr/share/doc/pkgfile/command-not-found.bash
+fi
