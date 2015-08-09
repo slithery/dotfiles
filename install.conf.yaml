@@ -1,4 +1,4 @@
-- clean: ['~']
+- clean: ['~', '~/.config']
 
 - shell:
   - mkdir -p ~/.config ~/.cache/{mpd,vim}
@@ -15,4 +15,3 @@
 
 - shell:
   - touch ~/.config/mpd/{database,log,sticker.sql}
-
