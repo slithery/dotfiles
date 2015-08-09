@@ -1,11 +1,17 @@
 - clean: ['~']
 
-- shell: [mkdir -p ~/.config ~/.cache/vim]
+- shell:
+  - mkdir -p ~/.config ~/.cache/{mpd,vim}
+  - touch ~/.cache/mpd/{pid,state}
 
 - link:
     ~/.config/bash: bash/
     ~/.config/git: git/
     ~/.config/modprobed-db.conf: modprobed-db.conf
+    ~/.config/mpd: mpd/
     ~/.config/vim: vim/
     ~/.config/xorg: xorg/
+
+- shell:
+  - touch ~/.config/mpd/{database,log,sticker.sql}
 
