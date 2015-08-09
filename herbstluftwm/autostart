@@ -7,6 +7,10 @@
 # set wallpaper
 feh --no-fehbg --bg-fill ~/.config/wallpapers/wallpaper
 
+# enable compositing
+compton -b --config ~/.config/compton/compton.conf
+
+
 hc() {
     herbstclient "$@"
 }

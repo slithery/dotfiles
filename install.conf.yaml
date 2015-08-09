@@ -6,6 +6,7 @@
 
 - link:
     ~/.config/bash: bash/
+    ~/.config/compton: compton/
     ~/.config/git: git/
     ~/.config/herbstluftwm: herbstluftwm/
     ~/.config/modprobed-db.conf: modprobed-db.conf
