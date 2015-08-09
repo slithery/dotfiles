@@ -5,6 +5,7 @@
 - link:
     ~/.config/bash: bash/
     ~/.config/git: git/
+    ~/.config/modprobed-db.conf: modprobed-db.conf
     ~/.config/vim: vim/
     ~/.config/xorg: xorg/
 
