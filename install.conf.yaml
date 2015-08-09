@@ -9,6 +9,7 @@
     ~/.config/git: git/
     ~/.config/modprobed-db.conf: modprobed-db.conf
     ~/.config/mpd: mpd/
+    ~/.config/ncmpcpp: ncmpcpp/
     ~/.config/vim: vim/
     ~/.config/xorg: xorg/
 

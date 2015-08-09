@@ -73,4 +73,5 @@ alias lsblk='lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL,UUID'
 alias strc="awk '!/^ *#/ && NF'"
 alias cl='clear'
 alias dmesg='clear; dmesg -eL -w'
+alias ncmpcpp='ncmpcpp -c ~/.config/ncmpcpp/config'
 
