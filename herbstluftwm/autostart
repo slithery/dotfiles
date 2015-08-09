@@ -1,6 +1,11 @@
 #!/bin/bash
 
-# this is a simple config for herbstluftwm
+#
+# Herbstluftwm autostart file
+#
+
+# set wallpaper
+feh --no-fehbg --bg-fill ~/.config/wallpapers/wallpaper
 
 hc() {
     herbstclient "$@"

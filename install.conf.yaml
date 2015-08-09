@@ -12,6 +12,7 @@
     ~/.config/mpd: mpd/
     ~/.config/ncmpcpp: ncmpcpp/
     ~/.config/vim: vim/
+    ~/.config/wallpapers: wallpapers/
     ~/.config/xorg: xorg/
     ~/bin: bin/
 
