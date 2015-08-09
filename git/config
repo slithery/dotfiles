@@ -1,0 +1,7 @@
+[user]
+	name = Slithery
+	email = git@slithery.uk
+[core]
+	editor = vim
+[push]
+	default = simple
