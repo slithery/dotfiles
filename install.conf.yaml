@@ -12,6 +12,7 @@
     ~/.config/ncmpcpp: ncmpcpp/
     ~/.config/vim: vim/
     ~/.config/xorg: xorg/
+    ~/bin: bin/
 
 - shell:
   - touch ~/.config/mpd/{database,log,sticker.sql}
