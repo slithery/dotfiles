@@ -1,0 +1,76 @@
+#
+# ~/.config/bash/bash_aliases
+#
+
+# cd
+#
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# pacman
+#
+alias pacu='sudo pacman -Syu'
+alias paci='sudo pacman -S'
+alias pacr='sudo pacman -Rs'
+alias pacrf='sudo pacman -Rns'
+alias pacs='pacman -Ss'
+
+# systemd
+#
+alias sc='systemctl'
+alias ssc='sudo systemctl'
+alias scu='systemctl --user'
+alias jc='sudo journalctl'
+alias journ='sudo journalctl -b -f'
+alias poweroff='sudo systemctl poweroff'
+alias reboot='sudo systemctl reboot'
+alias suspend='sudo systemctl suspend'
+
+# grep
+#
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias pg='ps -Af | grep $1'
+alias hist='history | grep'
+
+# ls
+#
+alias ls='ls -lh --color=auto'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+
+# vi
+#
+alias vi='vim'
+alias sv='sudoedit'
+
+# alias fixes
+alias sudo='sudo '
+alias watch='watch '
+
+# git
+alias gita='git add '
+alias gitc='git commit'
+alias gitp='git push'
+alias gitl='git log --graph --oneline --decorate'
+alias gits='git status'
+alias gitinfo='echo; git log -n 12 --graph --oneline --decorate; echo; git status; echo'
+
+# tmux
+alias tmn='tmux new-session -s'
+alias tml='tmux list-sessions'
+alias tma='tmux attach-session -t'
+
+# misc
+alias df='df -h -T | grep -v tmpfs'
+alias du='du -h --max-depth=1 | sort -hr'
+alias lsblk='lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL,UUID'
+alias strc="awk '!/^ *#/ && NF'"
+alias cl='clear'
+alias dmesg='clear; dmesg -eL -w'
+
