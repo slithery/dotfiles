@@ -7,6 +7,7 @@
 - link:
     ~/.config/bash: bash/
     ~/.config/git: git/
+    ~/.config/herbstluftwm: herbstluftwm/
     ~/.config/modprobed-db.conf: modprobed-db.conf
     ~/.config/mpd: mpd/
     ~/.config/ncmpcpp: ncmpcpp/
