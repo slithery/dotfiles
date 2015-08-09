@@ -94,3 +94,7 @@ export XDG_CACHE_HOME=~/.cache/
 
 # Dont display ^C
 stty -ctlecho
+
+
+# Set vimrc's location and source it on vim startup
+export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
