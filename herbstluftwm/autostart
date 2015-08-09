@@ -29,6 +29,12 @@ hc keybind $Mod-Shift-c close
 
 # custom keybindings
 hc keybind $Mod-Return spawn urxvt
+hc keybind XF86AudioPlay spawn mpc toggle
+hc keybind XF86AudioNext spawn mpc next
+hc keybind XF86AudioPrev spawn mpc prev
+hc keybind XF86AudioMute spawn pulseaudio-ctl mute
+hc keybind XF86AudioRaiseVolume spawn pulseaudio-ctl up
+hc keybind XF86AudioLowerVolume spawn pulseaudio-ctl down
 
 # basic movement
 # focusing clients
