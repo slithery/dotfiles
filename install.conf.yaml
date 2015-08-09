@@ -6,3 +6,5 @@
     ~/.config/bash: bash/
     ~/.config/git: git/
     ~/.config/vim: vim/
+    ~/.config/xorg: xorg/
+
