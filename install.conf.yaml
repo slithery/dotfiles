@@ -11,6 +11,7 @@
     ~/.config/herbstluftwm: herbstluftwm/
     ~/.config/modprobed-db.conf: modprobed-db.conf
     ~/.config/mpd: mpd/
+    ~/.config/mpv: mpv/
     ~/.config/ncmpcpp: ncmpcpp/
     ~/.config/vim: vim/
     ~/.config/wallpapers: wallpapers/
