@@ -1,7 +1,7 @@
 - clean: ['~', '~/.config']
 
 - shell:
-  - mkdir -p ~/.config ~/.cache/{mpd,vim}
+  - mkdir -p ~/.config/systemd/user ~/.cache/{mpd,vim,rtorrent/{session,torrents}}
   - touch ~/.cache/mpd/{pid,state}
 
 - link:
@@ -13,6 +13,8 @@
     ~/.config/mpd: mpd/
     ~/.config/mpv: mpv/
     ~/.config/ncmpcpp: ncmpcpp/
+    ~/.config/rtorrent: rtorrent/
+    ~/.config/systemd/user/rtorrent.service: systemd/user/rtorrent.service
     ~/.config/vim: vim/
     ~/.config/wallpapers: wallpapers/
     ~/.config/xorg: xorg/
