@@ -55,7 +55,7 @@ alias watch='watch '
 
 # git
 alias gita='git add '
-alias gitc='git commit'
+alias gitc='git commit -v'
 alias gitp='git push'
 alias gitl='git log --graph --oneline --decorate'
 alias gits='git status'
