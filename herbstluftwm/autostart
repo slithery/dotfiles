@@ -4,6 +4,20 @@
 # Herbstluftwm autostart file
 #
 
+# disable screen blanking
+xset -dpms
+xset s off
+
+# set keymap
+setxkbmap gb
+
+# enable numlock
+numlockx on
+
+# enable clipboard synchronization
+autocutsel -fork &
+autocutsel -selection PRIMARY -fork &
+
 # set wallpaper
 feh --no-fehbg --bg-fill ~/.config/wallpapers/wallpaper
 
@@ -162,15 +176,5 @@ hc unlock
 
 herbstclient set tree_style '╾│ ├└╼─┐'
 
-# do multi monitor setup here, e.g.:
-# hc set_monitors 1280x1024+0+0 1280x1024+1280+0
-# or simply:
-# hc detect_monitors
-
-# find the panel
-panel=~/.config/herbstluftwm/panel.sh
-[ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
-for monitor in $(herbstclient list_monitors | cut -d: -f1) ; do
-    # start it on each monitor
-    "$panel" $monitor &
-done
+# start the panel
+~/.config/herbstluftwm/panel.sh 0 &
